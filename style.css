@@ -1,10 +1,20 @@
-.website-wrapper {
-    display: flex;
-    justify-content: center;
-    width: 100vh;
-    height: 100vh;
+body {
+  background: #EAE1D3;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
 }
 
+.home-page {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1300px;
+  box-sizing: border-box;
+}
 
 
 .home-page .navbar-link {
@@ -16,7 +26,7 @@
   }
   .home-page .seoul-soondae {
     overflow-wrap: break-word;
-    font-family: 'Montserrat';
+    font-family: 'Georgia, serif';
     font-weight: 400;
     font-size: 18px;
     line-height: 1.5;
@@ -34,7 +44,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100vh;
+    max-width: 100%;
     box-sizing: border-box;
   }
   .home-page .copyright {
@@ -42,10 +52,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 51px 0 4px 0;
-    width: 100vh;
-    height: fit-content;
-    box-sizing: border-box;
+    align-items: center;
+    height: 100px;
+    width: 100%;
   }
   .home-page .text-wrapper {
     display: flex;
@@ -167,31 +176,24 @@
     line-height: 1.5;
     color: #C92D1F;
   }
-  .home-page {
-    background: #EAE1D3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    box-sizing: border-box;
-  }
   .home-page .hero {
     background: #EAE1D3;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 80px 0 19px 0;
-    width: 1440px;
+    width: 100%;
     box-sizing: border-box;
   }
   .home-page .container-1 {
     display: flex;
     flex-direction: row;
-    width: fit-content;
+    justify-content: space-between;
+    width: 100%;
     box-sizing: border-box;
+    flex: 1;
   }
   .home-page .column {
-    margin: 0 117.3px 644px 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -208,11 +210,10 @@
     color: #C92D1F;
   }
   .home-page .column-1 {
-    margin-right: 97px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 520px;
+    width: 570px;
     height: 748px;
     box-sizing: border-box;
   }
@@ -235,7 +236,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 48px 0;
-    width: 1440px;
+    width: 100%;
     box-sizing: border-box;
   }
   .home-page .hero-content-right {
@@ -257,6 +258,7 @@
     font-family: 'Montserrat';
     font-weight: 400;
     font-size: 18px;
+    max-width: 150px;
     line-height: 1.5;
     color: #C92D1F;
   }
@@ -270,9 +272,11 @@
   }
   .home-page .image {
     border-radius: 1000px 1000px 0 1000px;
-    background: url('../assets/images/image.png');
+    background: url('../assets/images/image-crop.jpeg');
     width: 186px;
     height: 194px;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   .home-page .section {
     background: #EAE1D3;
@@ -308,12 +312,13 @@
     line-height: 1;
     color: #C92D1F;
   }
-  .home-page .seoul-soondae-restaurant-located-in-markham-st-in-annandale-is-dedicated-to-bringing-the-comforting-flavors-of-korea-to-our-community-for-over-30-years-our-esteemed-chef-has-passionately-crafted-our-specialty-dish-soondae-along-with-many-other-soup-dishes-and-koreans-favorite-home-dishes-at-seoul-soondae-every-meal-is-an-invitation-to-create-lasting-memories-with-friends-and-family-all-while-enjoying-the-delightful-tastes-of-korean-cuisine-along-with-your-favorite-drinks {
+  .home-page .flavor-text {
     text-align: center;
     overflow-wrap: break-word;
     font-family: 'Montserrat';
     font-weight: 400;
     font-size: 18px;
+    max-width: 850px;
     line-height: 1.5;
     color: #C92D1F;
   }
@@ -347,15 +352,17 @@
     background: #EAE1D3;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     padding: 60px 0;
-    width: 1440px;
+    width: 100%;
     box-sizing: border-box;
+    gap: 30px;
   }
   .home-page .column-3 {
-    margin: 63.5px 78.9px 63.5px 0;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    justify-content: center;
   }
   .home-page .our-story {
     margin-bottom: 16px;
@@ -373,7 +380,7 @@
   .home-page .content {
     display: flex;
     flex-direction: column;
-    width: fit-content;
+    max-width: 500px;
     box-sizing: border-box;
   }
   .home-page .about-us {
@@ -389,7 +396,7 @@
     line-height: 1;
     color: #C92D1F;
   }
-  .home-page .we-have-been-committed-to-delivering-amemorable-dining-experience-that-captures-the-essence-of-korean-culture-from-our-koreanpocha-vibe-decor-to-our-menu-featuring-traditional-favorites-we-strive-to-create-awarm-and-inviting-atmosphere-that-transports-our-guests-to-the-streets-of-korea {
+  .home-page .about-us-text {
     margin-bottom: 40px;
     display: inline-block;
     overflow-wrap: break-word;
@@ -430,8 +437,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 498px;
-    height: 511px;
+    width: 570px;
+    height: auto;
     box-sizing: border-box;
   }
   .home-page .image-47 {
@@ -452,7 +459,7 @@
     flex-direction: column;
     align-items: center;
     padding: 60px 0;
-    width: 1440px;
+    max-width: 520px;
     box-sizing: border-box;
   }
   .home-page .star-11 {
@@ -523,17 +530,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 36px 70px 16px 70px;
-    width: 1440px;
+    width: 100%;
     box-sizing: border-box;
   }
   .home-page .container-2 {
-    margin: 0 3px 100px 2.9px;
+    margin: 0 3px 0 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1294.1px;
+    align-items: center;
+    height: 100px;
+    width: 100%;
     box-sizing: border-box;
+    
   }
   .home-page .social-links {
     display: flex;
@@ -625,7 +634,6 @@
   }
   .home-page .line-1-stroke {
     background: #C92D1F;
-    margin-left: 7px;
     width: 438px;
     height: 1px;
   }
