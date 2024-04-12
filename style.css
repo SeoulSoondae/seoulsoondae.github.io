@@ -1,0 +1,631 @@
+.website-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100vh;
+    height: 100vh;
+}
+
+
+
+.home-page .navbar-link {
+    margin: 12px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .home-page .seoul-soondae {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #C92D1F;
+  }
+  .home-page .location {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #C92D1F;
+  }
+  .home-page .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vh;
+    box-sizing: border-box;
+  }
+  .home-page .copyright {
+    border-top: 1px solid #C92D1F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 51px 0 4px 0;
+    width: 100vh;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .home-page .text-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .home-page .seoul-soondae-all-rights-reserved {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #C92D1F;
+  }
+  .home-page .links {
+    margin-right: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 483.5px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .home-page .alink {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .home-page .privacy-policy {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #C92D1F;
+  }
+  .home-page .alink-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .home-page .navbar-link-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .home-page .terms-of-service {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #C92D1F;
+  }
+  .home-page .alink-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .home-page .cookies-settings {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #C92D1F;
+  }
+  .home-page .menu {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #C92D1F;
+  }
+  .home-page .navbar-link-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .home-page .reservations {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #C92D1F;
+  }
+  .home-page .right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 119px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .home-page .button {
+    border-radius: 127px;
+    border: 1px solid #C92D1F;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px 0;
+    width: 119px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .home-page .visit-us {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #C92D1F;
+  }
+  .home-page {
+    background: #EAE1D3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .home-page .hero {
+    background: #EAE1D3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0 19px 0;
+    width: 1440px;
+    box-sizing: border-box;
+  }
+  .home-page .container-1 {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .home-page .column {
+    margin: 0 117.3px 644px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .home-page .seoul-soondae-1 {
+    overflow-wrap: break-word;
+    font-family: 'Georgia', 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 52px;
+    letter-spacing: -0.2px;
+    line-height: 1;
+    color: #C92D1F;
+  }
+  .home-page .column-1 {
+    margin-right: 97px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 520px;
+    height: 748px;
+    box-sizing: border-box;
+  }
+  .home-page .image-46 {
+    border-radius: 250px 250px 0 0;
+    background: url('../assets/images/image46.jpeg') 50% / cover no-repeat;
+    width: 520px;
+    height: 748px;
+  }
+  .home-page .column-2 {
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .home-page .primary-nav {
+    background: #EAE1D3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 48px 0;
+    width: 1440px;
+    box-sizing: border-box;
+  }
+  .home-page .hero-content-right {
+    margin: 0 10.4px 364px 10.4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .home-page .star-2 {
+    margin-bottom: 21px;
+    width: 26px;
+    height: 26px;
+  }
+  .home-page .discover-the-joy-of-casual-dining-with-authentic-korean-flavors {
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #C92D1F;
+  }
+  .home-page .image-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 186px;
+    height: 194px;
+    box-sizing: border-box;
+  }
+  .home-page .image {
+    border-radius: 1000px 1000px 0 1000px;
+    background: url('../assets/images/image.png');
+    width: 186px;
+    height: 194px;
+  }
+  .home-page .section {
+    background: #EAE1D3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0 30px 0;
+    width: 1440px;
+    box-sizing: border-box;
+  }
+  .home-page .section-title {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .home-page .star-1 {
+    margin-bottom: 24px;
+    width: 22px;
+    height: 22px;
+  }
+  .home-page .open-daily-11-am-10-pm {
+    margin-bottom: 24px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Georgia', 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 70px;
+    letter-spacing: -0.2px;
+    line-height: 1;
+    color: #C92D1F;
+  }
+  .home-page .seoul-soondae-restaurant-located-in-markham-st-in-annandale-is-dedicated-to-bringing-the-comforting-flavors-of-korea-to-our-community-for-over-30-years-our-esteemed-chef-has-passionately-crafted-our-specialty-dish-soondae-along-with-many-other-soup-dishes-and-koreans-favorite-home-dishes-at-seoul-soondae-every-meal-is-an-invitation-to-create-lasting-memories-with-friends-and-family-all-while-enjoying-the-delightful-tastes-of-korean-cuisine-along-with-your-favorite-drinks {
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #C92D1F;
+  }
+  .home-page .actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 127px;
+    box-sizing: border-box;
+  }
+  .home-page .button-1 {
+    border-radius: 127px;
+    border: 1px solid #C92D1F;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px 0;
+    width: 127px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .home-page .location-1 {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #C92D1F;
+  }
+  .home-page .section-1 {
+    background: #EAE1D3;
+    display: flex;
+    flex-direction: row;
+    padding: 60px 0;
+    width: 1440px;
+    box-sizing: border-box;
+  }
+  .home-page .column-3 {
+    margin: 63.5px 78.9px 63.5px 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .home-page .our-story {
+    margin-bottom: 16px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #C92D1F;
+  }
+  .home-page .content {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .home-page .about-us {
+    margin-bottom: 24px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Georgia', 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 70px;
+    letter-spacing: -0.2px;
+    line-height: 1;
+    color: #C92D1F;
+  }
+  .home-page .we-have-been-committed-to-delivering-amemorable-dining-experience-that-captures-the-essence-of-korean-culture-from-our-koreanpocha-vibe-decor-to-our-menu-featuring-traditional-favorites-we-strive-to-create-awarm-and-inviting-atmosphere-that-transports-our-guests-to-the-streets-of-korea {
+    margin-bottom: 40px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #C92D1F;
+  }
+  .home-page .actions-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: flex-start;
+    width: 101px;
+    box-sizing: border-box;
+  }
+  .home-page .button-2 {
+    border-radius: 60px;
+    border: 1px solid #C92D1F;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px 0;
+    width: 101px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .home-page .menu-1 {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #C92D1F;
+  }
+  .home-page .image-wrapper-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 498px;
+    height: 511px;
+    box-sizing: border-box;
+  }
+  .home-page .image-47 {
+    border-radius: 200px;
+    background: url('../assets/images/image47.jpeg') 50% / cover no-repeat;
+    width: 498px;
+    height: 511px;
+  }
+  .home-page .empty-div {
+    background: #EAE1D3;
+    margin-bottom: 34px;
+    width: 180px;
+    height: 17px;
+  }
+  .home-page .section-2 {
+    background: #EAE1D3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+    width: 1440px;
+    box-sizing: border-box;
+  }
+  .home-page .star-11 {
+    margin-bottom: 16px;
+    width: 22px;
+    height: 22px;
+  }
+  .home-page .visit-us-1 {
+    margin-bottom: 16px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Georgia', 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 69.4px;
+    letter-spacing: -0.2px;
+    line-height: 1;
+    color: #C92D1F;
+  }
+  .home-page .ready-to-experience-the-authentic-flavors-of-korea-we-highly-encourage-walk-ins-if-you-would-like-to-make-areservation-just-know-that-we-are-one-call-away {
+    margin-bottom: 32px;
+    display: inline-block;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #C92D1F;
+  }
+  .home-page .actions-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 218px;
+    box-sizing: border-box;
+  }
+  .home-page .button-3 {
+    border-radius: 60px;
+    border: 1px solid #C92D1F;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px 0;
+    width: 218px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .home-page .make-areservation {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #C92D1F;
+  }
+  .home-page .navbar-menu {
+    margin: 12px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 343.3px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .home-page .footer {
+    background: #EAE1D3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 36px 70px 16px 70px;
+    width: 1440px;
+    box-sizing: border-box;
+  }
+  .home-page .container-2 {
+    margin: 0 3px 100px 2.9px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1294.1px;
+    box-sizing: border-box;
+  }
+  .home-page .social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 313.8px;
+    box-sizing: border-box;
+  }
+  .home-page .alink-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .home-page .location-2 {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #C92D1F;
+  }
+  .home-page .alink-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .home-page .navbar-link-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .home-page .menu-2 {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #C92D1F;
+  }
+  .home-page .alink-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .home-page .reservations-1 {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #C92D1F;
+  }
+  .home-page .social-links-1 {
+    margin: 4.5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .home-page .icon-facebook {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 10px;
+    height: 18px;
+    box-sizing: border-box;
+  }
+  .home-page .vector {
+    width: 10px;
+    height: 18px;
+  }
+  .home-page .icon-instagram {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    box-sizing: border-box;
+  }
+  .home-page .vector-1 {
+    width: 18px;
+    height: 18px;
+  }
+  .home-page .line-1-stroke {
+    background: #C92D1F;
+    margin-left: 7px;
+    width: 438px;
+    height: 1px;
+  }
