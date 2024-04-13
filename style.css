@@ -211,11 +211,18 @@ body {
   }
   .home-page .column-1 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     width: 570px;
     height: 748px;
     box-sizing: border-box;
+    align-items: center;
+  }
+
+  .home-page .line {
+    height: 1px;
+    width: 438px;
+    background-color: #C92D1F;
   }
   .home-page .image-46 {
     border-radius: 250px 250px 0 0;
